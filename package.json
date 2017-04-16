@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "notes-app for work",
   "scripts": {
-    "server": "babel-node server/app.js"
+    "server": "babel-node server/app.js",
+    "start": "babel-node server/app2.js"
   },
   "author": "AndyG",
   "license": "ISC",
@@ -12,6 +13,8 @@
     "url": ""
   },
   "dependencies": {
-    "express": "~4.15.2"
+    "body-parser": "^1.17.1",
+    "express": "~4.15.2",
+    "mongoose": "^4.9.4"
   }
 }
