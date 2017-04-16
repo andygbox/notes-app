@@ -1,15 +1,17 @@
 {
-    "name": "notes-app",
-    "version": "1.0.0",
-    "description": "notes app for work",
-    "main": "webpack.config.js",
-    "scripts":{
-        "test": "echo \"Error: no test specified\" && exit 1"
-    },
-    "author": "AndyG",
-    "license": "ISC",
-    "repository": {
-        "type": "git",
-        "url": ""
-    }      
+  "name": "notes-app",
+  "version": "1.0.0",
+  "description": "notes app for work",
+  "scripts": {
+    "server": "babel-node server/app.js"
+  },
+  "author": "AndyG",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "dependencies": {
+    "express": "~4.15.2"
+  }
 }
